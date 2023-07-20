@@ -39,7 +39,7 @@ const Food = () => {
             
             meal.map((item, index)=>(
                 <div key={index} className='text-light col-lg-8 mx-auto border my-5 border-light text-center'>
-                <img className='mt-5 rounded-3' src={item.strMealThumb} alt="" width={600} height={300} />
+                <img className='mt-5 rounded-3 img-fluid' src={item.strMealThumb} alt="" width={600} height={300} />
                 <h1>MEAL: {item.strMeal}</h1>
                 <h1>COUNTRY: {item.strArea}</h1>
                 <h1>CATEGORY: {item.strCategory}</h1>
